@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: #fff5ee;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    text-align: center;
+}
+
+nav {
+     height: 69px;
+     border-bottom: 1px solid seashell;
+     display: inline-flex; 
+     width: 100%;
+     justify-content:space-between;
+     background-color: black;
+     position: fixed;
+     top: 0;
+     left: 0;
+     align-items: center;
+          
+}
+nav img {
+    height: 50px;
+    margin-left: 20px;
+}
+ul {
+    align-items: flex-end;
+    margin-right: 10px;
+}
+li {
+    display: inline;
+    padding-right: 10px;
+}
+a {
+    color: seashell;
+    opacity: 0.7;
+}
+
+#hero {
+    background-image: url("../images/mission.webp");
+    height: 700px;
+    width: 1200px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#herodetail {
+    background-color: black;
+    width: 100%;
+}
+
+#specials {
+    height: 700px;
+    width: 1200px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teas img {
+    width: 300px;
+    height: 200px;
+}
+.teas figcaption {
+    font-weight: bold;
+}
+#bottomsection {
+    background-image: url("../images/img-locations-background.webp");
+    height: 600px;
+    width: 1200px;
+    margin-top: 70px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottomsection h2 {
+    padding-top: 100px;
+}
+.location {
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    font-weight: bold;
+    opacity: 1;
+}
+.location p  {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#findus {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    height: 200px;
+}
+#copyright {
+    margin: 20px;
+    text-align: left;
+}
